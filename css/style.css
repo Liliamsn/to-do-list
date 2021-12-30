@@ -1,0 +1,85 @@
+body {
+  background-color: #E8A199;
+}
+
+.container {
+  width: 945px;
+  margin: 0 auto;
+}
+
+.conteudo {
+  height: 600px;
+  margin-top: 3rem;
+  background-color: #ffb6c154;
+  background-image: linear-gradient(to bottom transparent rgba(0, 0, 0, 0.185));
+  text-align: center;
+}
+
+.conteudo_titulo {
+  font-family: "Playfair Display", serif;
+  padding-top: 2rem;
+}
+
+.conteudo_tarefa-form_texto {
+  outline: none;
+}
+
+.conteudo_tarefa-form_data {
+  outline: none;
+}
+
+.conteudo_tarefa-form_data {
+  outline: none;
+  height: 1.1rem;
+}
+
+.conteudo_tarefa-form_botao {
+  background-color: #9CE0FF;
+  border: solid 1px #76A0B3;
+  padding: 0.2rem 0.2rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+
+.conteudo_tarefa-form_botao:hover {
+  background-color: #76A0B3;
+  border-color: #2a5366;
+  cursor: pointer;
+}
+
+.conteudo_lista {
+  padding: 3rem 0 3rem 0;
+  list-style: none;
+  margin-left: 7rem;
+  margin-right: 8rem;
+}
+
+.conteudo_lista-item {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.texto {
+  display: inline-block;
+  color: #FFFFFF;
+}
+
+.botao-deletar {
+  position: absolute;
+  top: 14px;
+  right: 75px;
+  background-color: #9CE0FF;
+  border: solid 1px #76A0B3;
+  padding: 0.2rem 0.2rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  margin-left: 2rem;
+}
+
+.botao-deletar:hover {
+  background-color: #76A0B3;
+  border-color: #2a5366;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

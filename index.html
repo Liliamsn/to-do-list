@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Liliam de Souza Nascimento">
+        <meta name="description" content="Criando uma lista de tarefas">
+        <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-16x16.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Special+Elite&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>To Do List</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="conteudo">
+                <h1 class="conteudo_titulo">To do List</h1>
+                <div class="conteudo_tarefa">
+                    <form id="conteudo_tarefa-form">
+                        <input type="text" name="texto" class="conteudo_tarefa-form_texto">
+                        <input type="date" name="data" class="conteudo_tarefa-form_data">
+                        <button class="conteudo_tarefa-form_botao">Adicionar</button>
+                    </form>
+                </div>
+                <ul class="conteudo_lista">
+                </ul>
+            </div>
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment.min.js"></script>
+        <script type="module" src="main.js"></script>
+    </body>
+</html>
