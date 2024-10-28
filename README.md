@@ -36,10 +36,7 @@ As seguintes ferramentas foram utilizadas no projeto:
 
 ```bash
     #Clonar o repositório
-    $ git clone  https://github.com/Liliamsn
-
-    #Entrar no diretório
-    $ cd to-do-list
+    $ git clone  https://github.com/Liliamsn/to-do-list.git
 
     #Instalar o live-server globalmente
     $ npm install -g live-server
